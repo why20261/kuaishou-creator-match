@@ -2,7 +2,11 @@
 name: kuaishou-creator-match
 description: 按关键词、点赞、类目和市场筛选快手带货达人，结合达人互动数据、作品表现数据和带货效果给出合作优先级，找到真正和品类、受众及目标匹配的快手达人候选。当用户询问达人匹配、达人筛选或合作候选时使用。支持三大能力：(1) 关键词搜索视频，可按点赞数、发布时间、视频时长筛选排序；(2) 达人作品抓取，按主页链接获取公开作品列表；(3) 视频评论分析，按视频链接获取评论内容与互动数据。
 license: MIT
-version: 1.0.0
+version: 1.0.2
+display_name: 🚀快手带货达人筛选
+display_name_en: KuaiShou Creator Match
+description_zh: 按关键词、点赞、类目和市场筛选快手带货达人，结合达人互动数据、作品表现数据和带货效果给出合作优先级，找到真正和品类、受众及目标匹配的快手达人候选。当用户询问达人匹配、达人筛选或合作候选时使用。
+description_en: Filter KuaiShou commerce creators by keywords, likes, categories and markets. Combine creators’ engagement data, content performance metrics and sales conversion performance to assign partnership priority, and identify qualified Kwai creator candidates that truly match the product category, audience and business objectives. It is used when users ask about creator matching, creator screening or partnership candidates.
 metadata:
   type: command
   runtime: "nodejs@16.14.0+"
@@ -218,7 +222,6 @@ metadata:
 - 运行环境：Node.js 16.14.0+
 - 系统兼容：Windows / Linux / macOS
 - 必需环境变量：`GUAIKEI_API_TOKEN`
-- 官方入口：<https://www.guaikei.com>
 - 详细参数说明：见 `references/options.md`
 - 更新记录：见 `references/changelog.md`
 
@@ -289,7 +292,3 @@ metadata:
 如需开通 token 或获得使用支持，可优先通过官网处理：
 
 - 官网：[快手达人筛选SKILL](https://www.guaikei.com)
-
-如需人工支持，可联系开发者：
-
-- 微信：`13395823479`（备注：快手技能）
